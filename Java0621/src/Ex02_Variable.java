@@ -1,0 +1,30 @@
+//변수는 데이터를 담을 수 있는 공간이다.
+public class Ex02_Variable {
+
+	public static void main(String[] args) {
+		
+		// 변수 선언과 초기화 1
+		// 변수에 데이터를 바로 저장해서 활용할 때
+//		int number = 9;
+		
+		// 변수 선언과 초기화 2
+		// 변수를 여러 곳에서 활용할 때
+		int number; // 변수선언
+		number = 9; // 변수 초기화
+		System.out.println(number);
+		
+		// 나를 소개하는 프로그램
+		
+		String name = "김정은";
+		int age = 38;
+		System.out.println("안녕하세요! 저는 " + name + "입니다.");
+		System.out.println(age + "살이고 작은 나라를 운영하고 있습니다.");
+		
+		/* 변수를 사용하는 이유
+		 * 데이터를 저장
+		 * 데이터를 자주 사용
+		 */	
+		
+	}
+
+}

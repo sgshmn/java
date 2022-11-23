@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Machine.Monter&apos; to &apos;Monster&apos;&#x0D;&#x0A;- Original project: &apos;Java0714&apos;&#x0D;&#x0A;- Original element: &apos;Machine.Monter&apos;&#x0D;&#x0A;- Renamed element: &apos;Machine.Monster&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Monter&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Machine{Monter.java[Monter" matchStrategy="1" name="Monster" qualified="false" references="true" similarDeclarations="false" stamp="1657781229855" textual="false" version="1.0"/>
+</session>

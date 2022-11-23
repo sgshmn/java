@@ -1,0 +1,71 @@
+
+public class ex02_자료형 {
+	public static void main(String[] args) {
+		// 기본 데이터타입 8가지
+		// 논리타입 1개 1byte
+		// boolean - true false
+		boolean state;
+		state = true;
+		System.out.println(state);
+		state = false;
+		System.out.println(state);
+		
+		// 문자타입 1개 2byte
+		// char - 'a' '이' 처럼 한 글자만. 두 글자 이상은 문자열
+		char c = 'a';
+//		c = "asdf" 오류
+		System.out.println(c);
+		
+		// 정수타입 4개 1,2,4,8byte
+		// byte, short, int, long
+		byte num1 = 127;
+		System.out.println(num1);
+		short num2 = 127;
+		System.out.println(num2);
+		int num3 = 21021312;
+		System.out.println(num3);
+		long num4 = 13124213;
+		System.out.println(num4);
+		
+		// 실수타입 2개 4,8byte
+		// float, double
+		double d = 2.71d; // d를 빼도 d(D)가 있는 것으로 받아들이기 때문에 생략해도 된다.
+		float f = 3.14f; // 끝에 f(F)를 꼭 붙여야 한다. 
+		
+		// 형변환, 타입변환
+		int i = 3;
+		long l = 8;
+		l = i; // 요건 된다. 
+//		i = l; 요건 안 된다. 데이터의 크기가 큰거에서 작은거로는 대입할 수 없다. 소주잔, 맥주잔 생각하기
+		System.out.println(l);
+		
+		// 강제 형변환
+		i = (int)l;
+		
+		float f1 = 76.3f;
+		double d1 = 54.8;
+		f1 = (float)d1;
+		
+		
+		int num5 = 32;
+		double num6 = 80.3;
+		
+//		num6 = num5; num6의 크기가 커서 데이터 타입이 달라도 가능
+		num5 = (int)num6;
+		
+		System.out.println(num5); // 소수점 아래는 버린다. 데이터 손실
+		
+		
+		int num7 = 73123213;
+		float num8 = 3.3f;
+		
+//		num7 = num8; 데이터 크기가 4byte로 같긴 하지만 이런식으로는 안 된다. 
+//		num8 = num7; 되긴하는데 조금 미심쩍다.
+		num7 = (int)num8;
+		System.out.println(num7);
+		
+		
+		
+		
+	}
+}
